@@ -1,7 +1,8 @@
 {
-  "author": "Peter Njenga",
-  "name": "ticketin",
+  "name": "sudorate",
   "version": "1.0.0",
+  "description": "A web portal for rating of products and services",
+  "author": "Peter Njenga",
   "dependencies": {
     "react-dom": "^16.8.6"
   }
