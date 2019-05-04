@@ -1,0 +1,8 @@
+{
+  "author": "Peter Njenga",
+  "name": "ticketin",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-dom": "^16.8.6"
+  },
+}
