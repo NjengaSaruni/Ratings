@@ -2,8 +2,26 @@
   "name": "sudorate",
   "version": "1.0.0",
   "description": "A web portal for rating of products and services",
-  "author": "Peter Njenga",
+  "author": {
+    "name": "Peter Njenga",
+    "email": "peternjengask@gmail.com",
+    "url": "http://riverlearn.com/peternjenga"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NjengaSaruni/Ticket-Inn.git"
+  },
+  "license": "MIT",
   "dependencies": {
+    "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   }
 }
