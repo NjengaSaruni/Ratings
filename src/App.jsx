@@ -4,6 +4,13 @@ import Footer from "./components/Footer";
 import Person from "./Person";
 
 class App extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            king: "James"
+        }
+    }
+
     render() {
         let people = [
             {
@@ -18,6 +25,7 @@ class App extends React.Component {
         const peopleList = people.map(person => <Person person={person}/>);
         return (
             <div>
+                <p>{this.state.king}</p>
                 <Header/>
                 {peopleList}
                 <Footer/>
