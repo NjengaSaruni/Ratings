@@ -5,8 +5,8 @@ class Person extends React.Component {
     render(props) {
         return (
             <div className="person">
-                <p>{props.person.name}</p>
-                <img className="image" src={props.person.url} alt=""/>
+                <p>{this.props.person.name}</p>
+                <img className="image" src={this.props.person.url} alt=""/>
             </div>
         )
     }
